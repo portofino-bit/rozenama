@@ -2,7 +2,6 @@ import Categories from "./components/Categories";
 import Features from "./components/Features";
 import Footer from "./components/Footer";
 import LatestProducts from "./components/LatestProducts";
-import PopularProducts from "./components/PopularProducts";
 import SearchBar from "./components/SearchBar";
 import TopNavBar from "./components/TopNavBar";
 import Treademarks from "./components/Trademarks";
@@ -17,7 +16,6 @@ export default function Home() {
       <Treademarks/>
       <Features/>
       <LatestProducts/>
-      <PopularProducts/>
       <Footer/>
     </div>
   );
